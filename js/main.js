@@ -1,3 +1,6 @@
+$('button').hover(function () {
+	$(this).addClass('animate__animated animate__pulse');
+});
 const ajaxCall = () => {
 	$.ajax({
 		url:
