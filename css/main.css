@@ -1,0 +1,59 @@
+html,
+body {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+	font-size: 8rem;
+	font-family: 'Hachi Maru Pop', cursive;
+	color: #fff !important;
+	margin: 0;
+}
+
+#search {
+	height: 23px;
+	width: 360px;
+	border: 1px solid #092b40;
+	height: 50px;
+	padding-left: 20px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+#search[placeholder] {
+	font-size: 20px;
+}
+
+.heading {
+	margin: 0;
+	color: #fff !important;
+}
+
+i {
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.searchBox {
+	margin-top: 47px;
+}
+
+.shortHr {
+	width: 100px;
+	border-bottom: 2px solid #fff;
+}
+
+.jumbotron {
+	border-radius: 0px !important;
+	background-color: #570052;
+}
+
+a:hover {
+	text-decoration: none !important;
+	opacity: 0.9 !important;
+}

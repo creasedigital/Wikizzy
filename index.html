@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Wikizzy</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 jumbotron text-center">
+					<h1 class="logo">Wikizzy</h1>
+					<p><i>Live Search Results From Wikipedia...</i></p>
+					<hr class="shortHr" />
+
+					<div class="searchBox">
+						<input
+							type="text"
+							name=""
+							id="search"
+							class="form-control"
+							placeholder="Type Something Here"
+						/>
+						<button class="btn btn-primary random mt-3">Article Of The Day</button>
+					</div>
+				</div>
+
+				<div class="col-sm-8 col-sm-offset-2 searchResults">
+					<div id="update"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid embed-responsive embed-responsive-16by9">
+			<div class="row">
+				<iframe
+					src=""
+					frameborder="0"
+					class="embed-responsive-item"
+					width="1080"
+					height="760"
+					allowfullscreen
+				></iframe>
+			</div>
+		</div>
+
+		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
