@@ -54,7 +54,7 @@ small {
 
 .jumbotron {
 	border-radius: 0px !important;
-	background-color: #151515;
+	background-color: #151515 !important;
 }
 
 a:hover {
