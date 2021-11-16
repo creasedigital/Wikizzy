@@ -11,6 +11,10 @@ body {
 	margin: 0;
 }
 
+#update{
+	margin: 2rem auto;
+}
+
 #search {
 	height: 23px;
 	width: 360px;
